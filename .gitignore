@@ -1,0 +1,36 @@
+# 依賴套件
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js 編譯產物
+.next/
+out/
+
+# 生產環境與建置
+build/
+dist/
+
+# 環境變數檔案
+.env*.local
+.env
+
+# 偵錯日誌
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# 編輯器與系統檔案 (Windows 專屬)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+Thumbs.db
+desktop.ini
+
+# TypeScript 紀錄
+tsbuildinfo
